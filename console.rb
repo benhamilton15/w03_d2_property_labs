@@ -27,4 +27,6 @@ house2 = Property.new(
 
 p Property.find(15)
 
+p Property.find_by_address('5 house street')
+
 # house1.delete()
